@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@600&family=Poppins:wght@300;400;500;600&display=swap');
+
+/* Apply Poppins and AR One Sans fonts to the document */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Center the body content both horizontally and vertically */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Styling for the calculator container */
+.calculator {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #f3f3f3;
+}
+
+/* Styling for the display input field */
+.display {
+    background-color: #ddd;
+    text-align: right;
+    padding: 5px;
+}
+
+
+/* Styling for the input field */
+#display {
+    width: 100%;
+    height: 50px;
+    border: none;
+    font-size: 25px;
+}
+
+/* Styling for the calculator buttons */
+.buttons {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    /* Display buttons in a column layout */
+}
+
+/* Style each row separately */
+.row {
+    display: flex;
+    margin: 5px 0;
+    /* Add margin between rows for spacing */
+}
+
+/* Styling for the calculator buttons */
+button {
+    width: 100px;
+    /* Set a fixed pixel width for the buttons */
+    height: 70px;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+    margin: 0px 5px;
+}
